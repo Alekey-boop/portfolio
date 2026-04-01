@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems Engineer Portfolio</title>
+    <meta name="description" content="Portfolio de un Ingeniero en Sistemas especializado en soluciones escalables.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Gradient Background Orbs -->
+    <div class="blob-c blob-1"></div>
+    <div class="blob-c blob-2"></div>
+
+    <nav aria-label="Navegación principal">
+        <a href="#" class="logo">SE.</a>
+        <div class="nav-links">
+            <a href="#about">Acerca</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact" class="btn-primary">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content reveal">
+                <span class="tagline">Ingeniero de Sistemas</span>
+                <h1 class="glitch" data-text="Construyendo ">Construyendo <br/><span class="accent">Sistemas Resilientes.</span></h1>
+                <p>Diseño arquitecturas robustas, automatizo despliegues y desarrollo soluciones escalables enfocadas en el rendimiento absoluto y código limpio.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">Ver Trabajo <i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#contact" class="btn-secondary">Hablemos</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal slide-right">
+                <div class="code-window floating">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">class</span> <span class="title">Engineer</span> {
+  <span class="keyword">constructor</span>() {
+    <span class="this">this</span>.role = <span class="string">'Systems Engineer'</span>;
+    <span class="this">this</span>.skills = [<span class="string">'Architecture'</span>, <span class="string">'Cloud'</span>];
+  }
+  
+  <span class="function">solveProblems</span>() {
+    <span class="keyword">return</span> <span class="string">'Optimized Solutions'</span>;
+  }
+}</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-heading reveal">
+                <h2>Tecnologías Core</h2>
+                <p>El arsenal técnico que impulsa mi trabajo diario.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal stagger">
+                    <i class='bx bxl-python'></i>
+                    <h3>Python</h3>
+                    <p>Scripts, automatización y backend escalable.</p>
+                </div>
+                <div class="skill-card reveal stagger">
+                    <i class='bx bxl-docker'></i>
+                    <h3>Docker</h3>
+                    <p>Contenerización para despliegues consistentes.</p>
+                </div>
+                <div class="skill-card reveal stagger">
+                    <i class='bx bxl-aws'></i>
+                    <h3>AWS</h3>
+                    <p>Arquitectura cloud y servicios serverless.</p>
+                </div>
+                <div class="skill-card reveal stagger">
+                    <i class='bx bx-data'></i>
+                    <h3>Databases</h3>
+                    <p>SQL & NoSQL tuning, PostgreSQL y Redis.</p>
+                </div>
+                <div class="skill-card reveal stagger">
+                    <i class='bx bxl-kubernetes'></i>
+                    <h3>Kubernetes</h3>
+                    <p>Orquestación de microservicios de alta carga.</p>
+                </div>
+                <div class="skill-card reveal stagger">
+                    <i class='bx bx-terminal'></i>
+                    <h3>Linux / Bash</h3>
+                    <p>Administración de sistemas y scripting avanzado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-heading reveal">
+                <h2>Trabajo Destacado</h2>
+                <p>Soluciones a problemas complejos presentadas con elegancia.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal slide-up">
+                    <div class="card-image">
+                        <div class="placeholder-img bg-grad-1"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="tags">
+                            <span>K8s</span>
+                            <span>Go</span>
+                        </div>
+                        <h3>Microservicios Escalables</h3>
+                        <p>Plataforma orquestada que procesa más de 1M req/minuto con alta disponibilidad.</p>
+                        <a href="#" class="read-more">Ver detalles <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal slide-up" style="transition-delay: 100ms;">
+                    <div class="card-image">
+                        <div class="placeholder-img bg-grad-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>AWS Lambda</span>
+                        </div>
+                        <h3>Pipeline MLOps</h3>
+                        <p>Infraestructura Serverless para entrenamiento y despliegue de modelos predictivos.</p>
+                        <a href="#" class="read-more">Ver detalles <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal slide-up" style="transition-delay: 200ms;">
+                    <div class="card-image">
+                        <div class="placeholder-img bg-grad-3"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="tags">
+                            <span>Terraform</span>
+                            <span>CI/CD</span>
+                        </div>
+                        <h3>Infraestructura como Código</h3>
+                        <p>Automatización total del despliegue en múltiples entornos usando GitHub Actions.</p>
+                        <a href="#" class="read-more">Ver detalles <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container reveal scale-up">
+                <h2>¿Listo para innovar juntos?</h2>
+                <p>Actualmente abierto a nuevos desafíos y oportunidades emocionantes en ingeniería de sistemas.</p>
+                <div class="contact-links">
+                    <a href="mailto:hello@example.com" class="btn-primary big">Contactar por Email</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SE Portfolio. Built with performance in mind.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
